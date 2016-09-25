@@ -7,7 +7,8 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="assets/style.css" type="text/css">
+		<link rel="stylesheet" href="gambar/style.css" type="text/css">
 		<title>latihan1></title>
 	</head>
 	<body>
