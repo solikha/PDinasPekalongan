@@ -13,7 +13,7 @@
 	<body>
 	 <div id="wrapper">
 			<div id="container" >
-			<header><img src="6.jpg"  Profil Dinas Kabupaten Pekalongan width="900 px" height="80 px"></img></header> <!--HTML5 -->
+			<header><img src="gambar/6.jpg"   width="900 px" height="80 px">Profil Dinas Kabupaten Pekalongan</img></header> <!--HTML5 -->
 			<nav>
 			<ul>
 <li><a href="index.htm">Selayang Pandang</a></li>
