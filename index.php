@@ -7,14 +7,13 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" href="assets/style.css" type="text/css">
-		<link rel="stylesheet" href="gambar/style.css" type="text/css">
+		<link rel="stylesheet" href="assets/style.css"  type="text/css">
 		<title>latihan1></title>
 	</head>
 	<body>
 	 <div id="wrapper">
-			<div id="container">
-			<header><center>Profil Dinas Kabupaten Pekalongan</center></header> <!--HTML5 -->
+			<div id="container" >
+			<header><img src="6.jpg"  Profil Dinas Kabupaten Pekalongan width="900 px" height="80 px"></img></header> <!--HTML5 -->
 			<nav>
 			<ul>
 <li><a href="index.htm">Selayang Pandang</a></li>
@@ -25,6 +24,8 @@
 <li><a href="#">Insfrastruktur</a></li>
 </ul>
 </nav> <!--HTML5 -->
+
+<img class="img-responsive" src="foto/text.png">
 <!--
 <div id="content">
 <?php
