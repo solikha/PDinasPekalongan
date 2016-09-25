@@ -18,10 +18,6 @@
 			<ul>
 <li><a href="index.htm">Selayang Pandang</a></li>
 <li><a href="#">Pemerintahan</a>
-<ul class="submenu">
-<li><a href="#">Sains</a></li>
-<li><a href="#">Bola</a></li>
-</ul>
 </li>
 <li><a href="video.html">Deskripsi Wilayah</a></li>
 <li><a href="kontak.html">Sosial Budaya</a></li>
@@ -40,7 +36,7 @@ echo "<div id='more'><a href='$baris'>Baca Selengkapnya</a></div>";
 echo "</div>";}
 ?>  -->
 <table>
-<caption><h3>Contoh Tabel dengan CSS</h3></caption>
+<caption><h3>Dinas Kabupaten Pekalongan</h3></caption>
     <tr>
         <th>Header Kolom 1</th>
         <th>Header Kolom 2</th>
