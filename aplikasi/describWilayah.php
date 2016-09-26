@@ -1,3 +1,6 @@
+<?php 
+include 'index.php';
+?>
 <?php
 	$koneksi = mysql_connect("localhost","root","");
 	mysql_select_db("latihan1", $koneksi);
@@ -26,11 +29,11 @@
 <div id="nav">
 <nav> 
 <ul>
-<li><a href="selayangPandang.php">Selayang Pandang</a></li>
-<li><a href="pemerintahan.php">Pemerintahan</a></li>
-<li><a href="describWilayah.php">Deskripsi Wilayah</a></li>
-<li><a href="sosialBudaya.php">Sosial Budaya</a></li>
-<li><a href="infrastruktuture.php">Insfrastruktur</a></li>
+<li><a href="index.html">Selayang Pandang</a></li>
+<li><a href="#">Pemerintahan</a></li>
+<li><a href="video.html">Deskripsi Wilayah</a></li>
+<li><a href="kontak.html">Sosial Budaya</a></li>
+<li><a href="#">Insfrastruktur</a></li>
 </ul>
 </nav>
 </div>

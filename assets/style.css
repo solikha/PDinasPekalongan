@@ -4,79 +4,77 @@ src:url("fonts/Cuprum.otf");
 font-weight:normal;
 }
 @font-face{
-font-family:"Lucida Calligraphy";
-src:url("fonts/Lucida Calligraphy.ttf");
+font-family:"Calibri";
+src:url("fonts/calibri.ttf");
 font-weight:normal;
 }
 body{
-font-family:Times New Roman;
-background:url(.jpg);
-background-attachment:fixed;
-background-position:center;
+font-family:Calibri;
 }
-#wrapper{
-width:980px;
-margin:auto;
-}
-#container{
-padding:10px;
-background:#FFFFFF;
-float:left;
-margin-top:10px;
-margin-bottom:10px;
--moz-border-radius:10px;
--webkit-border-radius:10px;
--o-border-radius:10px;
+
+
+h2{
+font-size:16px;
+text-decoration:(marquee direction="right");
 }
 header{
 height:100px;
-width:938px;
-border:#DFDFDF 1px solid;
-margin:5px auto;
-float:left;
-background:url(header.jpg);
-background-size:960px 120px;
-padding:20px 0px 0px 20px;
-font-family:Cuprum;
-font-style:italic;
-font-size:32px;
-font-weight:bold;
-color:#090;
-text-shadow:#000 2px 2px; /* CSS3 */
-}
-
-}
-
-#wrapper{
-width:960px;
-margin:auto;
-border:#F00 1px solid;
-}
-header{
-height:120px;
 width:940px;
-margin:0px;
 float:left;
-background:url(6.jpg);
+background:url(4.jpg);
 background-size:960px 120px;
-padding:20px 0px 0px 20px;
+padding:0px 0px 0px 20px;
 font-family:Cuprum;
 font-style:italic;
-font-size:32px;
+font-size:25px;
 font-weight:bold;
 color:#090;
 text-shadow:#000 2px 2px 1px;
 }
-
+nav{
+width:958px;
+float:center-right;
+overflow:auto;
+background:#DFDFDF;
+border:#AAAAAA 1px solid;
+margin:10 px 10px 10px 10px;
+}
+nav ul{
+list-style:none;
+float:left;
+overflow:auto;
+margin:0px;
+padding:0px;
+}
 nav ul li{
 display:block;
 padding:5px 10px 5px 10px;
-bolder-style:solid;
 float:left;
-margin:0px;
-border-right:#AAAAAA 1px solid;
+margin:0px;border-right:#AAAAAA 1px solid;
 }
-
+nav ul li .submenu{
+display:none;
+}
+nav ul li:hover .submenu{
+display:block;
+margin:0px;
+width:100px;
+position:absolute;
+margin-top:5px;
+border:#AAAAAA 1px solid;
+background:#DFDFDF;
+margin-left:-11px;
+}
+nav ul li:hover .submenu li{
+display:block;
+width:89px;
+padding:5px;
+float:left;
+border:none;
+}
+nav ul li:hover{
+background:#EDEDED;
+}
 nav ul li a{
 color:#000000;
 text-decoration:none;
@@ -84,111 +82,26 @@ text-decoration:none;
 nav ul li a:hover{
 text-decoration:underline;
 }
-aside {
- float: left;
- height: 250px;
- width: 29.5%;
- }
 
- section#content {
-float: right;
- height: 250px;
-width: 70%;
- }
-
+#menu-content{
+width:950px;
+height:auto;
+margin:5 auto;
+}
+#menu{
+float:left;
+width:300px;
+height:600px;
+}
 #wrapper #content{
-width:900px;
+width:620px;
 float:left;
 padding:10px;
 }
-#wrapper #content #single{
-margin:5px;
-border:#DFDFDF 1px solid;
-padding:5px;
-font-size:13px;
-float:left;
-overflow:auto;
-}
-#wrapper #content #single #featured-image{
-width:150px;
-height:150px;
--moz-background-size:450px 150px; /* CSS3 Mozilla Firefox */
-background-size:450px 150px; /* CSS3 Other Browser */
-background-position:center;
-float:left;
-overflow:auto;
-margin-right:5px;
-}
-table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
-	padding:5px;
-	margin:5px 5px 5px 5px;
+ul {
+    list-style-image: url('download.png');
 }
 
-table {
-    border-collapse: collapse;
-    width: 50%;
-}
-
-th, td {
-    padding: 15px;
-}
-
-
-#wrapper #content #single h2{
-margin:0px;
-font-family:Cuprum;
-font-size:18px;
-padding:5px;
-border:#DFDFDF 1px solid;
-background:#EEEEEE;
-margin-bottom:10px;
-}
-#wrapper #content #single #more a{
-float:right;
-overflow:auto;
-padding:2px 10px 2px 10px;
-background:#CF6;
-border:#FF9933 1px solid;
--moz-border-radius:10px;
--webkit-border-radius:10px;
--o-border-radius:10px;
-margin-bottom:10px;
-margin-right:10px;
-margin-top:10px;
-text-align:center;
-text-decoration:none;
-color:#000000;
-}
-#wrapper #content #single #more a:hover{
-background:#BD5;
-color:#093;
-border:#CC6600 1px solid;
-}
-
-#wrapper #sidebar{
-width:300px;
-float:right;
-padding:10px;
-margin-bottom:50px;
-margin-right:50px;
-margin-top:50px;
-}
-
-
-footer{
-float:left;
-background:#CCC;
-width:960px;
-color:#BBBBBB;
-}
-footer #column{
-width:300px;
-padding:10px;
-float:left;
-font-size:14px;
-}
 footer #column h2{
 margin:0px;
 margin-bottom:10px;
@@ -205,3 +118,19 @@ text-decoration:none;
 footer #column a:hover{
 text-decoration:underline;
 }
+
+footer{
+float:left;
+background:#CCC;
+width:960px;
+}
+footer #column{
+width:200px;
+padding:10px;
+float:left;
+}
+table {
+    border-collapse: collapse;
+	border: 1px solid black;
+}
+
