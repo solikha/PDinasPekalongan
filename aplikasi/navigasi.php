@@ -1,3 +1,5 @@
+<html>
+<link rel="stylesheet" href="./assets/style.css"  type="text/css">
 <!--bagian navigasi -->
 <div id="nav">
 <nav> 
@@ -10,4 +12,5 @@
 </ul>
 </nav>
 </div>
+</html>
 
