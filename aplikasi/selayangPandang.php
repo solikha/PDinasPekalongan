@@ -1,6 +1,4 @@
-<?php 
-include 'aplikasi/index.php';
-?>
+
 <?php
 	$koneksi = mysql_connect("localhost","root","");
 	mysql_select_db("latihan1", $koneksi);
@@ -15,41 +13,19 @@ include 'aplikasi/index.php';
 	</head>
 	<body>
 	 <div id="wrapper">
-<div id="container">
+		<div id="container">
+		<!--bagian header -->
+		<?php include"header.php"; ?>
+		<!--bagian navigasi -->
+		<?php include"navigasi.php"; ?>
+		<!--bagian konten -->
 
-<!--bagian header -->
-<div id="header">
-<div id="h1">
-<header>KABUPATEN PEKALONGAN</header> 
-<h2> <marquee  style="background-color: green;">DINAS DINAS KABUPATEN PEKALONGAN </marquee></h2>
-</div>
-</div>
 
-<!--bagian navigasi -->
-<div id="nav">
-<nav> 
-<ul>
-<li><a href="index.html">Selayang Pandang</a></li>
-<li><a href="#">Pemerintahan</a></li>
-<li><a href="video.html">Deskripsi Wilayah</a></li>
-<li><a href="kontak.html">Sosial Budaya</a></li>
-<li><a href="#">Insfrastruktur</a></li>
-</ul>
-</nav>
-</div>
+		<!--bagian footer -->
+		<footer> 
 
-<!--bagian footer -->
-<div id="footer">
-<footer> 
-<div id="column">
-
-</div>
-<div id="column">
-
-</div>
-<div id="column">
-
-</div>
-</footer>
-	</body>
+		</footer>
+	</div>
+	</div>
+</body>
 </html>
