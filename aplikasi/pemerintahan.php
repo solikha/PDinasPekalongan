@@ -16,18 +16,18 @@
 	$query = mysql_query("select * from berita",$koneksi);
 	?>
 	<body>
-	 <div id="wrapper">
-		<div id="container">
-		<!--bagian header -->
-		<?php include"header.php"; ?>
-		<!--bagian navigasi -->
-		
-		<!--bagian konten -->
-		<!--bagian footer -->
-		<footer> 
-
-		</footer>
-	</div>
-	</div>
+	 <div class="container">
+	   <div class="row">
+		<div class="col-md-12"> <?php include"judul.php"?></div>
+	   </div>
+	<div class="row">
+       <div class="col-md-8"></div>
+       <div class="col-md-4"></div>
+    <div class="col-*-*"></div>
+  </div>
+  <div class="row">
+    ...
+  </div>
+</div>
 </body>
 </html>

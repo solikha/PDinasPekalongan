@@ -19,7 +19,7 @@
 	 <div id="wrapper">
 		<div id="container">
 		<!--bagian header -->
-		<?php include"header.php"; ?>
+		<?php include"judul.php"; ?>
 		<!--bagian navigasi -->
 		
 		<!--bagian konten -->
