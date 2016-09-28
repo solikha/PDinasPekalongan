@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap-theme.min.css">
-	<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
 	
 	
 </head>

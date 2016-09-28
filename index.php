@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.min.css">
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+	
 	
 	
 </head>
@@ -14,50 +14,58 @@
 	mysql_select_db("latihan1", $koneksi);
 	
 	$query = mysql_query("select * from berita",$koneksi);
-	?>
 
-	<body>
-	 <div id="wrapper">
-<div id="container">
-<!--bagian header -->
-<div id="nav">
-<nav> 
-<ul>
-<li><a href="aplikasi/selayangPandang.php">Selayang Pandang</a></li>
-<li><a href="aplikasi/pemerintahan.php">Pemerintahan</a></li>
-<li><a href="aplikasi/describWilayah.php">Deskripsi Wilayah</a></li>
-<li><a href="aplikasi/sosialBudaya.php">Sosial Budaya</a></li>
-<li><a href="aplikasi/infrastruktuture.php">Insfrastruktur</a></li>
-</ul>
-</nav>
-</div>
-<div id="menu-content">
-<div id="menu">
-<div id="ul">
-<ul>
-<li> Lembaga Legislative </li>
-<li> Lembaga Eksekutive </li>
-<li> Strukture Organisasi</li>
-<li> Profil Kecamatan </li>
-</ul>
-</div>
-</div> <!--konten 1 -->
-<div id="content"> 
-<div id="table">
-<table>
-  <tr style="height: 25.5pt;">
-        <th >No</th>
-        <th>Dinas</th>
-        <th>Nama Kepala</th>
-		<th>Alamat/Tlp</th>
-		<th>Badan Organisasi</th>
-    </tr>
-    <tr>
-        <td>1.</td>
-        <td>Dinas Pendidikan dan Kebudayaan</td>
-        <td>Dra. Sri Sugiarti (PLT Kepala)</td>
-		<td>Jl. Sumbing No.3 Kajen Telp. (0285) 382 037, 7908 539</td>
-        <td><a href = "google.com" >klik disini <a></td>
+	?>
+<body background_image="7.jpg">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+			<h2><a href="http://www.pekalongankab.go.id/"> Kabupaten Pekalongan </a></h2>		
+			<div class="well well-sm">
+				 <!--- latihan  kelas bootsrap--->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="aplikasi/selayangPandang.php">Selayang Pandang</a></li>
+                    <li><a href="aplikasi/pemerintahan.php">Pemerintahan</a></li>
+                    <li><a href="aplikasi/describWilayah.php">Deskripsi Wilayah</a></li>
+                    <li><a href="aplikasi/sosialBudaya.php">Sosial Budaya</a></li>
+                    <li><a href="aplikasi/infrastruktuture.php">Insfrastruktur</a></li>
+
+                </ul>
+            </div>
+        </nav>
+			</div>
+		</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+		<ul  class="list-group">
+			<li class="list-group-item" > <img src="/gambar/5.jpg" alt="Stop kekerasan anak"> </li>
+			<li class="list-group-item"> Lembaga Eksekutive </li>
+			<li class="list-group-item"> Strukture Organisasi</li>
+			<li class="list-group-item"> Profil Kecamatan </li>
+			<li class="list-group-item"> Lembaga Legislative </li>
+			<li class="list-group-item"> Lembaga Eksekutive </li>
+			<li class="list-group-item"> Strukture Organisasi</li>
+			<li class="list-group-item"> Profil Kecamatan </li>
+		</ul>
+		</div>
+        <div class="col-md-8">
+			<table  class="table table-bordered">
+                        <tr style="height: 10.5pt;">
+                            <th>No</th>
+                            <th>Dinas</th>
+                            <th>Nama Kepala</th>
+                            <th>Alamat/Tlp</th>
+                            <th>Badan Organisasi</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>Dinas Pendidikan dan Kebudayaan</td>
+                            <td>Dra. Sri Sugiarti (PLT Kepala)</td>
+                            <td>Jl. Sumbing No.3 Kajen Telp. (0285) 382 037, 7908 539</td>
+                            <td><a href="google.com">klik disini <a></td>
 		
 
     </tr>
@@ -161,25 +169,13 @@
 
     </tr>
 </table>
+		
+		</div>
+        
+    </div>
+    <div class="row">
+		HEADER
+    </div>
 </div>
-</div><!-- konten 2 -->
-</div>
-
-<!--bagian footer -->
-<div id="footer">
-<footer> 
-<div id="column">
-
-</div>
-<div id="column">
-
-</div>
-<div id="column">
-
-</div>
-</div>
-</footer>
-</div>
-</div>
-	</body>
+</body>
 </html>
