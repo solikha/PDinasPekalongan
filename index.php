@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.min.css">
-	
-	
-	
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-theme.min.css">
+
+
+
 </head>
 <?php
 	$koneksi = mysql_connect("localhost","root","");
@@ -16,41 +17,35 @@
 	$query = mysql_query("select * from berita",$koneksi);
 
 	?>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-		  <?php include'aplikasi/judul.php';?>
-		</div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-		<ul  class="list-group">
-			<li class="list-group-item" > <img src="/gambar/5.jpg" alt="Stop kekerasan anak"> </li>
-			<li class="list-group-item"> Lembaga Eksekutive </li>
-			<li class="list-group-item"> Strukture Organisasi</li>
-			<li class="list-group-item"> Profil Kecamatan </li>
-			<li class="list-group-item"> Lembaga Legislative </li>
-			<li class="list-group-item"> Lembaga Eksekutive </li>
-			<li class="list-group-item"> Strukture Organisasi</li>
-			<li class="list-group-item"> Profil Kecamatan </li>
-		</ul>
-		</div>
-        <div class="col-md-8">
-			<table  class="table table-bordered">
-                        <tr style="height: 10.5pt;">
-                            <th>No</th>
-                            <th>Dinas</th>
-                            <th>Nama Kepala</th>
-                            <th>Alamat/Tlp</th>
-                            <th>Badan Organisasi</th>
-                        </tr>
-                        <tr>
-                            <td>1.</td>
-                            <td>Dinas Pendidikan dan Kebudayaan</td>
-                            <td>Dra. Sri Sugiarti (PLT Kepala)</td>
-                            <td>Jl. Sumbing No.3 Kajen Telp. (0285) 382 037, 7908 539</td>
-                            <td><a href="google.com">klik disini <a></td>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 articles" id="site-content">
+                    <?php include'judul.php';?>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+							DINAS DINAS KABUPATEN PEKALONGAN
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-bordered" alt="Dinas Dinas Kabupaten Pekalongan">
+                                <tr style="height: 10.5pt;">
+                                    <th>No</th>
+                                    <th>Dinas</th>
+                                    <th>Nama Kepala</th>
+                                    <th>Alamat/Tlp</th>
+                                    <th>Badan Organisasi</th>
+                                </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Dinas Pendidikan dan Kebudayaan</td>
+                                    <td>Dra. Sri Sugiarti (PLT Kepala)</td>
+                                    <td>Jl. Sumbing No.3 Kajen Telp. (0285) 382 037, 7908 539</td>
+                                    <td><a href="google.com">klik disini <a></td>
 		
 
     </tr>
@@ -154,12 +149,13 @@
 
     </tr>
 </table>
-		
+	</div>
+	</div>	
 		</div>
-        
+        <?php include'sidebar.php';?>
     </div>
-    <div class="row">
-		HEADER
+    <div>
+		<?php include'footer.php';?>
     </div>
 </div>
 </body>
