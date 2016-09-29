@@ -20,22 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-			<h2><a href="http://www.pekalongankab.go.id/"> Kabupaten Pekalongan </a></h2>		
-			<div class="well well-sm">
-				 <!--- latihan  kelas bootsrap--->
-        <nav class=class="nav nav-tabs">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><a href="aplikasi/selayangPandang.php">Selayang Pandang</a></li>
-                    <li><a href="aplikasi/pemerintahan.php">Pemerintahan</a></li>
-                    <li><a href="aplikasi/describWilayah.php">Deskripsi Wilayah</a></li>
-                    <li><a href="aplikasi/sosialBudaya.php">Sosial Budaya</a></li>
-                    <li><a href="aplikasi/infrastruktuture.php">Insfrastruktur</a></li>
-
-                </ul>
-            </div>
-        </nav>
-			</div>
+		  <?php include'aplikasi/judul.php';?>
 		</div>
     </div>
     <div class="row">

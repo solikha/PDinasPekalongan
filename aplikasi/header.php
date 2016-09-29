@@ -10,7 +10,7 @@
 <div id="nav">
 <nav> 
 <ul>
-<li><a href="selayangPandang.php">Selayang Pandang</a></li>
+<li a href="selayangPandang.php">Selayang Pandang /li>
 <li><a href="pemerintahan.php">Pemerintahan</a></li>
 <li><a href="describWilayah.php">Deskripsi Wilayah</a></li>
 <li><a href="sosialBudaya.php">Sosial Budaya</a></li>

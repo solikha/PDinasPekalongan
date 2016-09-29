@@ -17,17 +17,28 @@
 	?>
 	<body>
 	 <div class="container">
-	   <div class="row">
-		<div class="col-md-12"> <?php include"judul.php"?></div>
-	   </div>
-	<div class="row">
-       <div class="col-md-8"></div>
-       <div class="col-md-4"></div>
-    <div class="col-*-*"></div>
-  </div>
-  <div class="row">
-    ...
-  </div>
-</div>
+
+        <!--HEADER/JUDUL --->
+        <div class="row">
+            <div class="col-md-12">
+                <?php include'judul.php';?>
+            </div>
+        </div>
+        <!--HEADER/JUDUL SELESAI --->
+
+        <!--BAGIAN KONTEN --->
+        <div class="row">
+            <div class="col-md-8"></div>
+            <!--ISI --->
+            <div class="col-md-12"></div>
+            <!--SIDEBAR --->
+        </div>
+        <!--FOOTER --->
+        <div class="row">
+            ...
+        </div>
+        <!--FOOTER SELESAI --->
+
+    </div>
 </body>
 </html>

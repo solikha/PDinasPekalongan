@@ -16,20 +16,29 @@
 	$query = mysql_query("select * from berita",$koneksi);
 	?>
 	<body>
-	 <div id="wrapper">
-		<div id="container">
-		<!--bagian header -->
-		<?php include"judul.php"; ?>
-		<!--bagian navigasi -->
-		
-		<!--bagian konten -->
+    <div class="container">
 
+        <!--HEADER/JUDUL --->
+        <div class="row">
+            <div class="col-md-12">
+                <?php include'judul.php';?>
+            </div>
+        </div>
+        <!--HEADER/JUDUL SELESAI --->
 
-		<!--bagian footer -->
-		<footer> 
+        <!--BAGIAN KONTEN --->
+        <div class="row">
+            <div class="col-md-8"></div>
+            <!--ISI --->
+            <div class="col-md-12"></div>
+            <!--SIDEBAR --->
+        </div>
+        <!--FOOTER --->
+        <div class="row">
+            ...
+        </div>
+        <!--FOOTER SELESAI --->
 
-		</footer>
-	</div>
-	</div>
+    </div>
 </body>
 </html>
